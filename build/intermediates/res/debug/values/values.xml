@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/workspace/MyIMClient/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="btn_login_normal">#007086</color>
+    <color name="btn_login_pressed">#303744</color>
+    <color name="btn_register_normal">#2dafa3</color>
+    <color name="btn_register_pressed">#4ebcd3</color>
+    <color name="layout_bg">#efeff4</color>
+    <color name="textview_fragment_backgroud">#F0F0F0</color>
+    <color name="tv_person_normal">#9fa0a0</color>
+    <color name="tv_person_press">#51c4d4</color>
+    <!-- From: file:/D:/workspace/MyIMClient/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/D:/workspace/MyIMClient/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="advice_edithint">输入您的宝贵意见，以帮助我们提高改进产品</string>
+    <string name="advice_yourad">您的意见：</string>
+    <string name="app_name">通信IM</string>
+    <string name="cancel">取消</string>
+    <string name="client_login_flag">start_login</string>
+    <string name="client_stoplogin_flag">stop_login</string>
+    <string name="commit">提交</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/D:/workspace/MyIMClient/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

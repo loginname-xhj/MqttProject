@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">通信IM</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- 意见反馈 -->
+    <string name="advice_yourad">您的意见：</string>
+    <string name="advice_edithint">输入您的宝贵意见，以帮助我们提高改进产品</string>
+    <string name="commit">提交</string>
+    <string name="cancel">取消</string>
+    <string name="client_login_flag">start_login</string>
+    <string name="client_stoplogin_flag">stop_login</string>
+
+</resources>

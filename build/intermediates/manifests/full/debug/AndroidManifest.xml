@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.itpersion.myimclient"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.itpersion.myimclient.app.ConfigApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="com.itpersion.myimclient.activity.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.itpersion.myimclient.activity.LoginActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.itpersion.myimclient.activity.SingleChatActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.itpersion.myimclient.activity.HomeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.itpersion.myimclient.activity.MessageActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.itpersion.myimclient.activity.ContactsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.itpersion.myimclient.activity.PersonActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.itpersion.myimclient.activity.SystemSettingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.itpersion.myimclient.activity.VcardActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.itpersion.myimclient.activity.FeedBackActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.itpersion.myimclient.activity.MessageSearchActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service android:name="com.itpersion.myimclient.service.XXService" >
+        </service>
+        <service android:name="com.itpersion.myimclient.service.ClientConnService" >
+        </service>
+
+        <provider
+            android:name="com.itpersion.myimclient.provider.RosterProvider"
+            android:authorities="com.taiji.cn.provider.Rosters" >
+        </provider>
+        <provider
+            android:name="com.itpersion.myimclient.provider.ChartProvider"
+            android:authorities="com.taiji.cn.provider.chart" >
+        </provider>
+
+        <activity android:name="com.itpersion.myimclient.activity.AddressBookActivity" >
+        </activity>
+        <activity android:name="com.itpersion.myimclient.activity.GroupActivity" />
+        <activity android:name="com.itpersion.myimclient.activity.CreateGroupActivity" />
+        <activity android:name="com.itpersion.myimclient.activity.EmptyActivity" />
+        <activity android:name="com.itpersion.myimclient.fragment.HomeFragment" />
+    </application>
+
+</manifest>

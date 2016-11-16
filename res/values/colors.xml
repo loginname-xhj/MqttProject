@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="btn_register_normal">#2dafa3</color>
+    <color name="btn_register_pressed">#4ebcd3</color>
+    <color name="btn_login_normal">#007086</color>
+    <color name="btn_login_pressed">#303744</color>
+    <color name="tv_person_press">#51c4d4</color>
+    <color name="tv_person_normal">#9fa0a0</color>
+    <color name="layout_bg">#efeff4</color>
+     <color name="textview_fragment_backgroud">#F0F0F0</color>
+     <color name="common_red">#FF0000</color>
+</resources>

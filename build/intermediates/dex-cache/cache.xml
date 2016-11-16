@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\workspace\MyIMClient\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4a6be13368bb64c5a0b0460632d228a1a915f58f">
+        <dex dex="D:\workspace\MyIMClient\build\intermediates\pre-dexed\debug\android-support-v4-47787f52a99d113bc7816a159d0988ac23710ea9.jar" />
+    </item>
+
+</items>

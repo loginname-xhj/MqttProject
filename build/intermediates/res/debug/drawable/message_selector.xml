@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/tab_chat_pre" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/tab_chat_pre" android:state_focused="true"></item>
+    <item android:state_selected="true" android:drawable="@drawable/tab_chat_pre"></item>
+   
+    <item android:drawable="@drawable/tab_chat"></item>
+
+</selector><!-- From: file:/D:/workspace/MyIMClient/res/drawable/message_selector.xml -->
